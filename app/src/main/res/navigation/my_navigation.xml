@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.codialapp.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/coursesFragment"
+        android:name="com.example.codialapp.CoursesFragment"
+        android:label="fragment_courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/aboutCoursesFragment"
+        android:name="com.example.codialapp.AboutCoursesFragment"
+        android:label="fragment_about_courses"
+        tools:layout="@layout/fragment_about_courses" />
+    <fragment
+        android:id="@+id/mentorsFragment"
+        android:name="com.example.codialapp.MentorsFragment"
+        android:label="fragment_mentors"
+        tools:layout="@layout/fragment_mentors" />
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.example.codialapp.GroupsFragment"
+        android:label="fragment_groups"
+        tools:layout="@layout/fragment_groups" />
+    <fragment
+        android:id="@+id/addMentorsFragment"
+        android:name="com.example.codialapp.AddMentorsFragment"
+        android:label="fragment_add_mentors"
+        tools:layout="@layout/fragment_add_mentors" />
+    <fragment
+        android:id="@+id/viewGroupsFragment"
+        android:name="com.example.codialapp.ViewGroupsFragment"
+        android:label="fragment_view_groups"
+        tools:layout="@layout/fragment_view_groups" />
+    <fragment
+        android:id="@+id/itemPager1Fragment"
+        android:name="com.example.codialapp.ItemPager1Fragment"
+        android:label="fragment_item_pager1"
+        tools:layout="@layout/fragment_item_pager1" />
+    <fragment
+        android:id="@+id/pagerItemFragment"
+        android:name="com.example.codialapp.PagerItemFragment"
+        android:label="fragment_pager_item"
+        tools:layout="@layout/fragment_pager_item" />
+    <fragment
+        android:id="@+id/viewGroupFragment2"
+        android:name="com.example.codialapp.ViewGroupFragment"
+        android:label="fragment_view_group"
+        tools:layout="@layout/fragment_view_group2" />
+</navigation>

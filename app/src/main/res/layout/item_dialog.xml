@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="13dp"
+        android:hint="Course name"
+        app:boxStrokeColor="#FFAB00"
+        app:hintTextColor="#FFAB00">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLength="30"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edit_2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="13dp"
+        android:hint="About course"
+        app:boxStrokeColor="#FFAB00"
+        app:hintTextColor="#FFAB00">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:maxLength="30"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:textSize="25dp"
+        android:textColor="#FFB800"
+        android:layout_marginLeft="280dp"
+        android:layout_marginVertical="10dp"
+        />
+
+</LinearLayout>
